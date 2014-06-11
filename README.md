@@ -22,4 +22,4 @@ Outputs:
 1. `bash 000_tab_to_text.sh /datadrive/kkk_2014_paper/mc_dumps/2014-03-05_2014_to_2014-06-02/ > /datadrive/derived_data/data_gensim_90/text_only.txt`
 2. `bash 000b_tab_to_ids.sh /datadrive/kkk_2014_paper/mc_dumps/2014-03-05_2014_to_2014-06-02/ > /datadrive/output/gensim_90days_100topics/gensim_90days_100topics-article-ids.txt`
 3. `python 001_create_gensim_data.py /datadrive/derived_data/data_gensim_90/text_only.txt /datadrive/derived_data/data_gensim_90/text`
-4. `python 002_train_gensim_lda.py /datadrive/derived_data/data_gensim_90/text/$SOMETHING.mm /datadrive/derived_data/data_gensim_90/text/$SOMETHING.dict /datadrive/output/gensim_90days_100topics/gensim_90days_100topics`
+4. `python 002_train_gensim_lda.py /datadrive/derived_data/data_gensim_90/text/text_only.txt.mm /datadrive/derived_data/data_gensim_90/text/text_only.txt.mm.dict /datadrive/output/gensim_90days_100topics/gensim_90days_100topics 100`
