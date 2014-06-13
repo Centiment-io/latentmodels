@@ -34,7 +34,7 @@ topicdesc_fields = [ "topic_index", "topic_desc" ]
 
 # filepaths
 HOME = "/Users/wli/"
-DROPBOX_FOLDER = "Dropbox/kkk_2014_paper/"
+DROPBOX_FOLDER = "Dropbox/kdd_2014/"
 DATA_FOLDER = "topic_experiments_william/"
 DAYS = 90
 TOPICS = 100
